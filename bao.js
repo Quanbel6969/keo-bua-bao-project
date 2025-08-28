@@ -1,4 +1,4 @@
-const rbs = ["keo","bua","bao"]
+const kbb = ["keo","bua","bao"]
 const playerchoice = document.getElementById("playerchoice")
 const computerchoice = document.getElementById("computerchoice")
 const gameresult = document.getElementById("gameresult")
@@ -9,7 +9,7 @@ let yourscore = 0
 let computerscore = 0
 // value của let có thể thay đổi còn const thì ko, chắc v:))
 function option (playeroption) {
-const computeroption = rbs[Math.floor(Math.random() * 3)]
+const computeroption = kbb[Math.floor(Math.random() * 3)]
 let result = ""
 computerchoice.textContent = `Computer's choice: ${computeroption}`
 playerchoice.textContent = `Player choice: ${playeroption}`
