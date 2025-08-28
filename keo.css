@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    border-radius: 250px;
+    margin: 0 10px;
+    background-color: aqua;
+    font-size: 3rem;
+}
+
+#points {
+    text-align: left;
+    font-size: 2rem;
+}
